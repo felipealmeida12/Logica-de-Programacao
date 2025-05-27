@@ -50,8 +50,8 @@ void loop()
     while(! Serial.available());
     int palpite = Serial.parseInt();
 
-    //int numeroSorteado = random(1, 7);
-    int numeroSorteado = 1;
+    //int numeroSorteado = 1;
+    int numeroSorteado = random(1, 7);
     Serial.println("Jogando o dado");
     pontinhos();
 
